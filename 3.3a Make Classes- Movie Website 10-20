@@ -1,0 +1,22 @@
+class Movie():  #media.py
+  def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
+      self.title = movie_title
+      self.storyline = movie_storyline
+      self.poster_image_url = poster_image
+      self.trailer_youtube_url = trailer_youtube
+
+
+
+
+
+
+
+
+
+import media #entertainment_center.py
+
+toy_story = media.Movie("Toy Story",
+                        "A story of a boy and his toys that",
+                        "http://upload.wikipedia.org/wikipedia..",
+                        "https://www.youtube.com/watch...")
+  
